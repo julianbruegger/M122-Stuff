@@ -7,12 +7,14 @@ while($true){
 
     if ($Userinput -eq 0){
             Write-Host Das endergebnis ist $1
+            break
     }
 
     else {
 
         if ($Userinput -in $numbers) {
             $1 = $1 + $Userinput 
+           
             }
             else{
             Write-Host "Value is negative"
