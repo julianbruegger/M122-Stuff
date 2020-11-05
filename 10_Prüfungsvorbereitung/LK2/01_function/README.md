@@ -9,8 +9,7 @@ Eine Funktion besteht aus einer Liste von Anweisungen, die Sie mit einer Bezeich
 ## Beispiel
 
 ```ps1
-function Get-Name 
-#Funktion mit dem Namen «Get-Name» wird erstellt
+function mPreis2($anz, $stkpreis)
 {
    $name= Read-Host “Wie ist dein Name”
    #Name wird abgefragt und in $name abgelegt
