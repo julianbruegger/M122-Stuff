@@ -8,7 +8,7 @@ Eine Funktion besteht aus einer Liste von Anweisungen, die Sie mit einer Bezeich
 
 ## Beispiel
 
-```ps
+```ps1
 function mPreis2($anz, $stkpreis)
 {
     $preis = $anz * $stkpreis
